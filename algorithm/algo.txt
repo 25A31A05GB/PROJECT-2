@@ -1,0 +1,37 @@
+1. Start
+2. Initialize all head pointers to NULL
+3. Display main menu
+4. Read user choice
+
+5. If choice = 1 (Citizen)
+   5.1 Display sub-menu
+   5.2 If Add → create node → insert at beginning
+   5.3 If Display → traverse list → print data
+
+6. If choice = 2 (Complaint)
+   6.1 Display sub-menu
+   6.2 If Add → create doubly linked node → insert at head
+   6.3 If Display → traverse → print
+   6.4 If Update → search by ID → update status
+
+7. If choice = 3 (Water)
+   7.1 Input consumer ID and units
+   7.2 Calculate bill = units × 2.5
+   7.3 Insert into linked list
+   7.4 Display records
+
+8. If choice = 4 (Electricity)
+   8.1 Input units
+   8.2 If units ≤ 100 → bill = units × 3
+   8.3 Else if units ≤ 300 → bill = 100 × 3 + (units − 100) × 5
+   8.4 Else → bill = 100 × 3 + 200 × 5 + (units − 300) × 7
+   8.5 Store in linked list
+   8.6 Display records
+
+9. If choice = 5 (Waste)
+   9.1 Input waste details
+   9.2 Insert node into linked list
+   9.3 Display list
+
+10. Repeat steps until Exit is selected
+11. Stop
